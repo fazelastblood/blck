@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>BLCK | PROXY</title>
+    <meta
+      name="description"
+      content="Ultraviolet is a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers. Unblock sites today!"
+    />
+    <meta
+      name="keywords"
+      content="proxy, web proxy, ultraviolet, service workers, unblock websites, unblock chromebook, free web proxy, proxy list, proxy sites, un block chromebook, online proxy, proxy server, proxysite, proxy youtube, bypass securly, bypass iboss, bypass lightspeed filter, holy unblocker, chromebooks, titanium network, unblock youtube, youtube proxy, unblocked youtube, youtube unblocked"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#434c5e"
+    />
+    <meta name="googlebot" content="index, follow, snippet" />
+    <script src="title.js"></script>
+    <script src="icons.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="search.js" defer></script>
+    <script src="index.js" defer></script>
+    
+  </head>
+
+  <body ondragover="allowDrop(event)" ondrop="drop(event)">
+
+    <div class="navigation">
+      <button class="hamburger" onclick="show()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+      </button>
+
+      <nav>
+          <ul>
+              <li><a href = "./">Home</a></li>
+              <li><a href = "./Games.html">Games</a></li>
+              <li><a href = "./credits">Credits</a></li>
+              <li><a href = "./settings">Settings</a></li>
+              <li><a href="#" onclick="toggleFullScreen()">Full Screen</a></li>
+          </ul>
+      </nav>
+      <div class="overlay"></div>
+    </div>
+    
+
+    <form id="uv-form" class="flex-center">
+      <div class="search-content">
+        <div class="white">
+          <div class="search-logo"></div>
+        </div>
+    
+        <input
+  id="uv-search-engine"
+  type="hidden"
+  autocomplete="off"
+  spellcheck="false"
+/>
+<input
+  id="uv-address"
+  type="text"
+  placeholder="Search the web"
+  autocomplete="off"
+  spellcheck="false"
+/>
+
+      </div>
+    </form>
+    <div class="quick-dile">
+      <div class="grid-tiles" ondragover="allowDrop(event)" ondrop="drop(event)">
+        <div class="tile" draggable="true" ondragstart="dragStart(event)" >
+          <a href="/uv/service/hvtrs8%2F-wuw%2Cymuvu%60e%2Ccmm-">
+            <img src="./assets/youtube.webp" alt="">
+          </a>
+        </div>
+        <div class="tile" draggable="true" ondragstart="dragStart(event)">
+          <a href="/uv/service/hvtrs8%2F-wuw%2Crgdfiv.aoo%2F">
+            <img src="./assets/reddit.webp" alt="">
+          </a>
+        </div>
+        <div class="tile" draggable="true" ondragstart="dragStart(event)">
+          <a href="/uv/service/hvtrs8%2F-pme%2Ccmm-lmgkn%3Drgdkrgcv_wrn%3D'2D">
+            <img src="./assets/poe.webp" alt="">
+          </a>
+        </div>
+        <div class="tile" draggable="true" ondragstart="dragStart(event)">
+          <a href="/uv/service/hvtrs8%2F-mgraupyuopk%2Csjor%2F">
+            <img src="./assets/hg.webp" alt="">
+          </a>
+        </div>
+        <div class="tile" draggable="true" ondragstart="dragStart(event)">
+          <a href="/uv/service/hvtrs8%2F-wuw%2Cngtdlkx%2Ccmm-">
+            <img src="./assets/netflix.webp" alt="">
+          </a>
+        </div>
+        <div class="tile" draggable="true" ondragstart="dragStart(event)">
+          <a href="/uv/service/hvtrs8%2F-orel.qpmtkf%7B.aoo%2F">
+            <img src="./assets/spotify.webp" alt="">
+          </a>
+        </div>
+        <div class="tile" id="desktop-only" draggable="true" ondragstart="dragStart(event)">
+          <a href="/uv/service/hvtrs8%2F-wuw%2Ctkkvoi.aoo%2Fgxrlmrg%3F">
+            <img src="./assets/tiktok.webp" alt="">
+          </a>
+        </div>
+        <div class="tile" id="desktop-only" draggable="true" ondragstart="dragStart(event)">
+          <a href="/uv/service/hvtrs8%2F-dksaopd%2Ccmm-">
+            <img src="./assets/discord1.svg" alt="">
+          </a>
+        </div>
+        <div class="tile" id="desktop-only" draggable="true" ondragstart="dragStart(event)">
+          <a href="/uv/service/hvtrs8%2F-gktju%60.aoo%2F">
+            <img src="./assets/github.webp" alt="">
+          </a>
+        </div>
+        <div class="tile" id="desktop-only" draggable="true" ondragstart="dragStart(event)">
+          <a href="/uv/service/hvtrs8%2F-wuw%2Caoaxol.aoo%2Fped%3Dlat_%60b%5Dlmgm">
+            <img src="./assets/amazon.webp" alt="">
+          </a>
+        </div>
+        <div class="tile" id="desktop-only" draggable="true" ondragstart="dragStart(event)">
+          <a href="/uv/service/hvtrs8%2F-wuw%2Chwlw.aoo%2Fuencmmg">
+            <img src="./assets/hulu.webp" alt="">
+          </a>
+        </div>
+        <div class="tile" id="desktop-only" draggable="true" ondragstart="dragStart(event)">
+          <a href="/uv/service/hvtrs8%2F-wuw%2Ccpaxyeaoeq.aoo%2F">
+            <img src="./assets/crazygames.webp" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    
+
+
+    <div class="popup" id="popup">
+      <span class="popup-close">x</span>
+      <div class="desc left-margin">
+        <p id="uv-error"></p>
+        <pre id="uv-error-code" class="word-wrap-example"></pre>
+      </div>
+    </div>
+    
+
+
+
+    <footer>
+      <a
+        title="The TitaniumNetwork GitHub organization"
+        href="https://github.com/titaniumnetwork-dev"
+        id="desktop-only"
+        >TitaniumNetwork</a
+      >
+      <a title="The TitaniumNetwork Discord" href="https://discord.gg/unblock"
+      id="desktop-only"
+        >Discord</a
+      >
+      <a
+        title="The TompHTTP GitHub organization"
+        href="https://github.com/tomphttp"
+        id="desktop-only"
+        >TompHTTP</a
+      >
+      <a
+        title="The official deployment repository for Ultraviolet"
+        href="https://github.com/titaniumnetwork-dev/Ultraviolet-App"
+        id="desktop-only"
+        >GitHub</a
+      >
+      <a
+        title="License information"
+        href="credits.html"
+        >Credits</a
+      >
+      <span>Ultraviolet &copy; TN 2023</span>
+    </footer>
+    <script src="./menu.js"></script>
+    <script src="./background.js"></script>
+    <script src="./drag.js"></script>
+    <script src="./color.js" defer></script>
+  </body>
+</html>
